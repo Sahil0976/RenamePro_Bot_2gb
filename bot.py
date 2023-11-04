@@ -39,13 +39,13 @@ class Bot(Client):
                 self.invitelink = link
             except Exception as e:
                 logging.warning(e)
-                logging.warning("Make Sure Bot admin in force sub channel")
+                logging.warning("Make Sure Bot is admin in your force sub channel")
                 self.force_channel = None
         app = web.AppRunner(await web_server())
         await app.setup()
         bind_address = "0.0.0.0"
         await web.TCPSite(app, bind_address, Config.PORT).start()
-        logging.info(f"{me.first_name} ✅✅ BOT started successfully ✅✅")
+        logging.info(f"{me.first_name} ✅ BOT started successfully ✅")
 
         for id in Config.ADMIN:
             try:
