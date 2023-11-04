@@ -14,7 +14,7 @@
 
 ## Deploy To Render              
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/harshil8981/RenamePro_Bot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Sahil0976/Premium-Rename)
 
 ## Deploy To Railway
 
@@ -22,7 +22,7 @@
 
 ## Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/harshil8981/RenamePro_Bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+<a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 
 
@@ -60,24 +60,3 @@ restart - To Rrstart The Bot (Admin Only)
 status - Check Bot Status (Admin Only)
 broadcast - Send Message To All Users (Admin Only)
 ```
-
-### 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩:
-<a href="https://t.me/HP_Bot_discuss_group"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-red.svg?logo=telegram"></a>
-### 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
-<a href="https://t.me/Hpbot_update"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Channel-blue.svg?logo=telegram"></a>
-
-
-👲 <b>DEV</b>
-
-<p align="middle">
-<img src="https://telegra.ph/file/cadf1a4567c9ec2b7cb5e.jpg" width="150" height="150"><br>
-<img src="https://badgen.net/badge/Name/Mrkiller_1109/FF33FF?icon=awesome&labelColor=0080FF"></a>
-<img src="https://badgen.net/badge/Skills/python/Red?icon=terminal&labelColor=blue"></a>
-<a href="https://telegram.dog/Mrkiller_1109"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
-<a href="https://github.com/harshil8981"><img src="https://badgen.net/badge/Follow%20on%20/GitHub/80FF00?icon=github&labelColor=Green"></a>
-<a href="https://youtube.com/@TechnicalHPgamer"><img src="https://img.shields.io/badge/YouTube-Channel-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
-<a href="https://twitter.com/Hpquote1109?t=_8elNirxVJtwEKdmffCJ0w&s=09"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
-<a href="https://www.facebook.com/profile.php?id=100069920736400"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
-<a href="https://www.instagram.com/h_a_r_s_h_i_l1109/?igshid=1ejc9m0l5fvqt"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
-
-
