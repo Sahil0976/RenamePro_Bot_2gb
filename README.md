@@ -1,9 +1,7 @@
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="![image](https://github.com/Sahil0976/Sahil0976/assets/97865856/f2155b59-8393-4ecc-8db4-30f68d2f4866)">
 
-# <b>Rename Bot</b>
+# <b>Rename Bot Fully Modified</b>
 
-
-### Sᴀᴍᴩʟᴇ Bᴏᴛ (Official Mrkiller Rename Bot)
 
 <p align="center">
 🤖 <a href="https://t.me/Mrkiller_Renamer_Bot"><img title="Telegram" src="https://img.shields.io/static/v1?label=RENAMEMRKILLERPRO&message=BOT&color=blue-green"></a> 🤖
