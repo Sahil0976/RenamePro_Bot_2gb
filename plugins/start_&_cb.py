@@ -25,7 +25,6 @@ async def start(client, message):
             '👋 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇩​​🇮​​🇸​​🇨​​🇺​​🇸​​🇸​​🇮​​🇴​​🇳 👋​', url='https://t.me/Hunters_Discussion')
     ], [
         InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)
@@ -66,7 +65,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton(
                     '💞 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱 💞', url='https://t.me/Anime_X_Hunters'),
                 InlineKeyboardButton(
-                    '👋 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇩​​🇮​​🇸​​🇨​​🇺​​🇸​​🇸​​🇮​​🇴​​🇳 👋​', url='https://t.me/Ongoing_Anime_X_Hunter')
+                    '👋 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇩​​🇮​​🇸​​🇨​​🇺​​🇸​​🇸​​🇮​​🇴​​🇳 👋​', url='https://t.me/Hunters_Discussion')
             ], [
                 InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about')
             ]])
