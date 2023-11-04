@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/harshil8981/RenamePro_Bot.git
+    repo: https://github.com/Sahil0976/Premium-Rename.git
     branch: main
     autoDeploy: false
     envVars:
