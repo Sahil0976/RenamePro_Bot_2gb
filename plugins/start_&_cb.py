@@ -20,9 +20,9 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '💞 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱 💞​', url='https://t.me/Anime_X_Hunters'),
+            '💞 ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ 💞​', url='https://t.me/Anime_X_Hunters'),
         InlineKeyboardButton(
-            '👋 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇩​​🇮​​🇸​​🇨​​🇺​​🇸​​🇸​​🇮​​🇴​​🇳 👋​', url='https://t.me/Hunters_Discussion')
+            '👋 ᴀɴɪᴍᴇ ᴅɪꜱᴄᴜꜱꜱɪᴏɴ 👋​', url='https://t.me/Hunters_Discussion')
     ], [
         InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
     ]])
