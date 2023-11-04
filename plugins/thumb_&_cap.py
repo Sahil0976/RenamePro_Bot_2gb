@@ -43,6 +43,6 @@ async def removethumb(client, message):
 async def addthumbs(client, message):
     mkn = await message.reply_text("Please Wait ...")
     await db.set_thumbnail(message.from_user.id, file_id=message.photo.file_id)                
-    await mkn.edit("✅️ __**Tʜᴜᴍʙɴᴀɪʟ Sᴀᴠᴇᴅ**__")
+    await mkn.edit("✅️ __**​🇴​​🇰​ ​🇹​​🇭​​🇺​​🇲​​🇧​​🇳​​🇦​​🇮​​🇱​ ​🇸​​🇦​​🇻​​🇪​​🇩​**__")
 
 
