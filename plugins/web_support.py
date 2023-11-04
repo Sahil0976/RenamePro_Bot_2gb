@@ -4,7 +4,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("RenameSnowProBot")
+    return web.json_response("rename_hunters_bot")
 
 
 async def web_server():
