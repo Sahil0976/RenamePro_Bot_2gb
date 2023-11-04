@@ -20,9 +20,9 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Anime_X_Hunters'),
+            '💞 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱 💞​', url='https://t.me/Anime_X_Hunters'),
         InlineKeyboardButton(
-            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Ongoing_Anime_X_Hunter')
+            '👋 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇩​​🇮​​🇸​​🇨​​🇺​​🇸​​🇸​​🇮​​🇴​​🇳 👋​', url='https://t.me/Hunters_Discussion')
     ], [
         InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
@@ -64,21 +64,11 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Anime_X_Hunters'),
+                    '💞 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱 💞', url='https://t.me/Anime_X_Hunters'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Ongoing_Anime_X_Hunter')
+                    '👋 🇦​​🇳​​🇮​​🇲​​🇪​ ​🇩​​🇮​​🇸​​🇨​​🇺​​🇸​​🇸​​🇮​​🇴​​🇳 👋​', url='https://t.me/Ongoing_Anime_X_Hunter')
             ], [
-                InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
-            ]])
-        )
-    elif data == "help":
-        await query.message.edit_text(
-            text=Txt.HELP_TXT,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data="close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data="start")
+                InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about')
             ]])
         )
     elif data == "about":
