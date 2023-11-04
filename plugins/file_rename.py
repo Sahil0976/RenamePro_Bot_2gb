@@ -100,7 +100,7 @@ async def doc(bot, update):
         img.resize((320, 320))
         img.save(ph_path, "JPEG")
 
-    await ms.edit("⚠️__**Please wait...**__\n**Tʀyɪɴɢ Tᴏ Uᴩʟᴏᴀᴅɪɴɢ....**")
+    await ms.edit("⚠️__**Please wait...**__\n**🇺​​🇵​​🇱​​🇴​​🇦​​🇩​​🇮​​🇳​​🇬​ ​🇦​​🇭​​🇪​​🇦​​🇩​....**")
     type = update.data.split("_")[1]
     try:
         if type == "document":
