@@ -1,4 +1,4 @@
-<img src="![image](https://github.com/Sahil0976/Sahil0976/assets/97865856/f2155b59-8393-4ecc-8db4-30f68d2f4866)">
+![image](https://github.com/Sahil0976/Sahil0976/assets/97865856/f2155b59-8393-4ecc-8db4-30f68d2f4866)
 
 # <b>Rename Bot Fully Modified</b>
 
