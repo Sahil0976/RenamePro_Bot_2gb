@@ -62,7 +62,7 @@ async def send_msg(user_id, message):
         logger.info(f"{user_id} : Dᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ")
         return 400
     except UserIsBlocked:
-        logger.info(f"{user_id} : Bʟᴏᴄᴋᴇᴅ Tʜᴇ Bᴏᴛ")
+        logger.info(f"{user_id} : Bᴏᴛ Bʟᴏᴄᴋᴇᴅ ")
         return 400
     except PeerIdInvalid:
         logger.info(f"{user_id} : Uꜱᴇʀ Iᴅ Iɴᴠᴀʟɪᴅ")
