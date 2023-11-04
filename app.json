@@ -1,9 +1,9 @@
 {
-    "name": "MrKiller Renamer Bot",
+    "name": "Nozel's Modified",
     "description": "Telegram File Renamer Bot ",
     "logo": "https://graph.org/file/97f76ffe8cbb26b4119e5.jpg",
     "keywords": ["Renamer Bot", "Mongo DB"],    
-    "repository": "https://github.com/harshil8981/RenamePro_Bot",
+    "repository": "https://github.com/Sahil0976/Premium-Rename",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
