@@ -16,7 +16,7 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/6ef6d6dd23aa796fec768.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2058121397 '5090651635).split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Anime_X_Hunters") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002132770493"))
     FLOOD = int(os.environ.get("FLOOD", '10'))
