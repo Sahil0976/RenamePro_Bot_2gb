@@ -1,9 +1,9 @@
-pyrogram==2.0.35
-TgCrypto==1.2.5 
-motor==3.1.2
-dnspython==2.3.0
-hachoir==3.2.0
-Pillow==9.5.0 
-aiohttp==3.8.4
-pytz==2023.3
-humanize
+pyrogram==2.0.35  # Comment: A Python library for working with the Telegram API
+TgCrypto==1.2.5  # Comment: A library for Telegram-specific crypto functions
+motor==3.1.2     # Comment: An asynchronous MongoDB driver for Python
+dnspython==2.3.0 # Comment: A DNS toolkit for Python
+hachoir==3.2.0   # Comment: A package for parsing and editing binary files
+Pillow==9.5.0    # Comment: The Python Imaging Library, used for image processing
+aiohttp==3.8.4   # Comment: An asynchronous HTTP client/server framework
+pytz==2023.3     # Comment: Python library for working with time zones
+humanize         # Comment: A library for making numbers and data more human-readable
