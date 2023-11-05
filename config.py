@@ -4,21 +4,21 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "17540447")
-    API_HASH  = os.environ.get("API_HASH", "8ffa3ede58cd9957f178765dd969ab3e")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6867751683:AAHwb5xO5HGntTb6cSEoIVfEHKkF3i4PMhE")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@rename_hunters_bot")
+    API_ID    = os.environ.get("API_ID", "")
+    API_HASH  = os.environ.get("API_HASH", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","netflixvro59")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://netflixvro59:Anonymous_me6@cluster0.ykgvswy.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = os.environ.get("DB_NAME","")     
+    DB_URL  = os.environ.get("DB_URL","")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/6ef6d6dd23aa796fec768.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', "2058121397 5090651635").split()]
+    START_PIC   = os.environ.get("START_PIC", "")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', "5090651635").split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Anime_X_Hunters") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002132770493"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     FLOOD = int(os.environ.get("FLOOD", '10'))
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 
