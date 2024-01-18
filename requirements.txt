@@ -1,4 +1,4 @@
-pyrogram==2.0.35  # Comment: A Python library for working with the Telegram API
+pyrogram  # Comment: A Python library for working with the Telegram API
 TgCrypto==1.2.5  # Comment: A library for Telegram-specific crypto functions
 motor==3.1.2     # Comment: An asynchronous MongoDB driver for Python
 dnspython==2.3.0 # Comment: A DNS toolkit for Python
